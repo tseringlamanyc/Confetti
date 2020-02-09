@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B9753CAB16557D660D30B64 /* Pods_Confetti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEC1E3BC85FE39C466E428D /* Pods_Confetti.framework */; };
+		5251A0322399A14800BC7423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251A0312399A14700BC7423 /* AppDelegate.swift */; };
+		5251A0342399A14800BC7423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251A0332399A14800BC7423 /* SceneDelegate.swift */; };
+		5251A0362399A14800BC7423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251A0352399A14800BC7423 /* ViewController.swift */; };
+		5251A0392399A14800BC7423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A0372399A14800BC7423 /* Main.storyboard */; };
+		5251A03B2399A14A00BC7423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5251A03A2399A14A00BC7423 /* Assets.xcassets */; };
+		5251A03E2399A14A00BC7423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5251A03C2399A14A00BC7423 /* LaunchScreen.storyboard */; };
+		5251A0492399A14A00BC7423 /* ConfettiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251A0482399A14A00BC7423 /* ConfettiTests.swift */; };
+		5251A0542399A16600BC7423 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5251A0532399A16600BC7423 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5251A0452399A14A00BC7423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5251A0262399A14700BC7423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5251A02D2399A14700BC7423;
+			remoteInfo = Confetti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BFC8F78A8990EFC375D73D6 /* Pods-Confetti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Confetti.release.xcconfig"; path = "Target Support Files/Pods-Confetti/Pods-Confetti.release.xcconfig"; sourceTree = "<group>"; };
+		5251A02E2399A14700BC7423 /* Confetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Confetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251A0312399A14700BC7423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5251A0332399A14800BC7423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5251A0352399A14800BC7423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5251A0382399A14800BC7423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5251A03A2399A14A00BC7423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5251A03D2399A14A00BC7423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5251A03F2399A14A00BC7423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251A0442399A14A00BC7423 /* ConfettiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConfettiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5251A0482399A14A00BC7423 /* ConfettiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiTests.swift; sourceTree = "<group>"; };
+		5251A04A2399A14A00BC7423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5251A0532399A16600BC7423 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72B83E91C745749D1F66C691 /* Pods-Confetti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Confetti.debug.xcconfig"; path = "Target Support Files/Pods-Confetti/Pods-Confetti.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEC1E3BC85FE39C466E428D /* Pods_Confetti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Confetti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5251A02B2399A14700BC7423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9753CAB16557D660D30B64 /* Pods_Confetti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A0412399A14A00BC7423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5251A0252399A14700BC7423 = {
+			isa = PBXGroup;
+			children = (
+				5251A0532399A16600BC7423 /* Podfile */,
+				5251A0302399A14700BC7423 /* Confetti */,
+				5251A0472399A14A00BC7423 /* ConfettiTests */,
+				5251A02F2399A14700BC7423 /* Products */,
+				76D49276D5029A9704D5CF6B /* Pods */,
+				FA2FBFF7E56CA15CECFA9188 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5251A02F2399A14700BC7423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5251A02E2399A14700BC7423 /* Confetti.app */,
+				5251A0442399A14A00BC7423 /* ConfettiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5251A0302399A14700BC7423 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				5251A0312399A14700BC7423 /* AppDelegate.swift */,
+				5251A0332399A14800BC7423 /* SceneDelegate.swift */,
+				5251A0352399A14800BC7423 /* ViewController.swift */,
+				5251A0372399A14800BC7423 /* Main.storyboard */,
+				5251A03A2399A14A00BC7423 /* Assets.xcassets */,
+				5251A03C2399A14A00BC7423 /* LaunchScreen.storyboard */,
+				5251A03F2399A14A00BC7423 /* Info.plist */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+		5251A0472399A14A00BC7423 /* ConfettiTests */ = {
+			isa = PBXGroup;
+			children = (
+				5251A0482399A14A00BC7423 /* ConfettiTests.swift */,
+				5251A04A2399A14A00BC7423 /* Info.plist */,
+			);
+			path = ConfettiTests;
+			sourceTree = "<group>";
+		};
+		76D49276D5029A9704D5CF6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72B83E91C745749D1F66C691 /* Pods-Confetti.debug.xcconfig */,
+				2BFC8F78A8990EFC375D73D6 /* Pods-Confetti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA2FBFF7E56CA15CECFA9188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CEC1E3BC85FE39C466E428D /* Pods_Confetti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5251A02D2399A14700BC7423 /* Confetti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251A04D2399A14A00BC7423 /* Build configuration list for PBXNativeTarget "Confetti" */;
+			buildPhases = (
+				D576B27D8BFAB1A0FE332777 /* [CP] Check Pods Manifest.lock */,
+				5251A02A2399A14700BC7423 /* Sources */,
+				5251A02B2399A14700BC7423 /* Frameworks */,
+				5251A02C2399A14700BC7423 /* Resources */,
+				419547D29C85EC2F8F14B238 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Confetti;
+			productName = Confetti;
+			productReference = 5251A02E2399A14700BC7423 /* Confetti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5251A0432399A14A00BC7423 /* ConfettiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5251A0502399A14A00BC7423 /* Build configuration list for PBXNativeTarget "ConfettiTests" */;
+			buildPhases = (
+				5251A0402399A14A00BC7423 /* Sources */,
+				5251A0412399A14A00BC7423 /* Frameworks */,
+				5251A0422399A14A00BC7423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5251A0462399A14A00BC7423 /* PBXTargetDependency */,
+			);
+			name = ConfettiTests;
+			productName = ConfettiTests;
+			productReference = 5251A0442399A14A00BC7423 /* ConfettiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5251A0262399A14700BC7423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Tsering Lama";
+				TargetAttributes = {
+					5251A02D2399A14700BC7423 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					5251A0432399A14A00BC7423 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 5251A02D2399A14700BC7423;
+					};
+				};
+			};
+			buildConfigurationList = 5251A0292399A14700BC7423 /* Build configuration list for PBXProject "Confetti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5251A0252399A14700BC7423;
+			productRefGroup = 5251A02F2399A14700BC7423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5251A02D2399A14700BC7423 /* Confetti */,
+				5251A0432399A14A00BC7423 /* ConfettiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5251A02C2399A14700BC7423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A03E2399A14A00BC7423 /* LaunchScreen.storyboard in Resources */,
+				5251A03B2399A14A00BC7423 /* Assets.xcassets in Resources */,
+				5251A0542399A16600BC7423 /* Podfile in Resources */,
+				5251A0392399A14800BC7423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A0422399A14A00BC7423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419547D29C85EC2F8F14B238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Confetti/Pods-Confetti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Confetti/Pods-Confetti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Confetti/Pods-Confetti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D576B27D8BFAB1A0FE332777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Confetti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5251A02A2399A14700BC7423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A0362399A14800BC7423 /* ViewController.swift in Sources */,
+				5251A0322399A14800BC7423 /* AppDelegate.swift in Sources */,
+				5251A0342399A14800BC7423 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5251A0402399A14A00BC7423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251A0492399A14A00BC7423 /* ConfettiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5251A0462399A14A00BC7423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5251A02D2399A14700BC7423 /* Confetti */;
+			targetProxy = 5251A0452399A14A00BC7423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5251A0372399A14800BC7423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5251A0382399A14800BC7423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5251A03C2399A14A00BC7423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5251A03D2399A14A00BC7423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5251A04B2399A14A00BC7423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5251A04C2399A14A00BC7423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5251A04E2399A14A00BC7423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B83E91C745749D1F66C691 /* Pods-Confetti.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DYP84L8W;
+				INFOPLIST_FILE = Confetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.Confetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5251A04F2399A14A00BC7423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFC8F78A8990EFC375D73D6 /* Pods-Confetti.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DYP84L8W;
+				INFOPLIST_FILE = Confetti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.Confetti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5251A0512399A14A00BC7423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DYP84L8W;
+				INFOPLIST_FILE = ConfettiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.ConfettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Confetti.app/Confetti";
+			};
+			name = Debug;
+		};
+		5251A0522399A14A00BC7423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83DYP84L8W;
+				INFOPLIST_FILE = ConfettiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.pursuit.ConfettiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Confetti.app/Confetti";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5251A0292399A14700BC7423 /* Build configuration list for PBXProject "Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A04B2399A14A00BC7423 /* Debug */,
+				5251A04C2399A14A00BC7423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251A04D2399A14A00BC7423 /* Build configuration list for PBXNativeTarget "Confetti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A04E2399A14A00BC7423 /* Debug */,
+				5251A04F2399A14A00BC7423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5251A0502399A14A00BC7423 /* Build configuration list for PBXNativeTarget "ConfettiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5251A0512399A14A00BC7423 /* Debug */,
+				5251A0522399A14A00BC7423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5251A0262399A14700BC7423 /* Project object */;
+}
